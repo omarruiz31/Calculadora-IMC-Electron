@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: Arial;
-    background-color: #44a;
+    background-color: rgb(167, 190, 225);
 }
 
 .title{
@@ -43,42 +43,46 @@ body{
 
 .nav a:hover{
     background-color: rgb(6, 84, 16);
-    font-weight: bold;
+    text-shadow: #00aacc 
 }
 
 .box {
-  max-width: 300px;
-  margin: 80px auto;
-  padding: 20px;
-  border-radius: 10px;
-  background: #1e1e2f;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
+    max-width: 300px;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #1e1e2f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .field {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 input {
-  padding: 8px;
-  border: none;
-  border-radius: 5px;
-  outline: none;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
 }
 
 button {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background: #00d4ff;
-  cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #00d4ff;
+    cursor: pointer;
 }
 
 button:hover {
-  background: #00aacc;
+    background: #00aacc;
+}
+
+.desc{
+    margin-left: 5px;
 }
 
