@@ -23,8 +23,8 @@ const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
     height: 600,
-    minWidth: 500,
-    minHeight: 500,
+    minWidth: 800,
+    minHeight: 600,
     webPreferences: {
       preload: path.join(__dirname, '../preload/preload.js'),
       nodeIntegration: false,
@@ -69,7 +69,7 @@ ipcMain.handle('clear-history', () => {
 
 app.whenReady().then(() => {
   createWindow()
-  
+
   app.on('activate', () => {
     if (BrowserWindow.getAllWindows().length === 0) createWindow()
   })
