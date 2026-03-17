@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: rgb(167, 190, 225);
+}
+
+.title {
+    text-align: center;
+}
+
+.box {
+    width: 600px;
+    height: 400px;
+    background-color: gray;
+    margin: auto;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.app {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.header {
+    display: flex;
+    background: #08a;
+    padding: 15px 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a {
+    margin-left: 15px;
+    font-size: 16px;
+    background-color: rgb(10, 67, 75);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: padding 0.4s, background 0.3s;
+}
+
+.nav a:hover {
+    background-color: rgb(3, 49, 65);
+    text-shadow: #00aacc;
+}
+
+.box {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #1e1e2f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #00d4ff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00aacc;
+}
+
+.resultado {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.btn-danger {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #e74c3c;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.btn-danger:hover {
+    background: #c0392b;
+}
+
+.historial-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #1e1e2f;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.historial-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    text-align: left;
+}
+
+.historial-table th,
+.historial-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #333;
+}
+
+.historial-table th {
+    background-color: #08a;
+    color: white;
+}
+
+.historial-table tbody tr:hover {
+    background-color: #2a2a40;
+}

@@ -2,11 +2,14 @@
   "name": "imc_app",
   "version": "1.0.0",
   "description": "App para calcular el imc de una persona, desarrollado en electron",
-  "main": "main.js",
+  "main": "src/main/main.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "omarruiz",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^6.0.1"
+  }
 }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Historial IMC</title>
+</head>
+<body>
+    <header class="header">
+        <div class="app">Calculadora IMC</div>
+        <nav class="nav">
+          <a href="index.html">Inicio</a>
+          <a href="historial.html">Historial</a>
+        </nav>
+    </header>
+
+    <h1 class="title">Historial de Cálculos</h1>
+    
+    <div style="text-align: center; margin-bottom: 20px;">
+        <button id="clear-history-btn" class="btn-danger">Borrar Historial</button>
+    </div>
+
+    <div class="historial-container">
+        <table class="historial-table">
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Altura (cm)</th>
+                    <th>Peso (kg)</th>
+                    <th>IMC</th>
+                    <th>Categoría</th>
+                </tr>
+            </thead>
+            <tbody id="historial-body">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/historial.js"></script>
+</body>
+</html>
